@@ -28,8 +28,8 @@ Angular applications depend on external libraries available as npm packages. The
 
 Create a directory for the project and go to it:
 ```bash
-$ mkdir /home/alexey/ws_ts3/crm-simple0/
-$ cd /home/alexey/ws_ts3/crm-simple0/
+$ mkdir /home/alexey/ws_ts3/crm-simple1/
+$ cd /home/alexey/ws_ts3/crm-simple1/
 ```
 Install locally required @angular/cli version (Angular 10 version was used):
 ```bash
@@ -52,7 +52,7 @@ The [ng new](https://angular.io/cli/new) command creates the _Angular workspace_
 
 To continue, go to the main application directory:
 ```bash
-$ cd /home/alexey/ws_ts3/crm-simple0/
+$ cd /home/alexey/ws_ts3/crm-simple1/
 ```
 Create a workspace for the main crm-simple application:
 ```bash
@@ -99,7 +99,7 @@ This additional application does not depend on other such additional application
 
 To continue, go to the main application directory:
 ```bash
-$ cd /home/alexey/ws_ts3/crm-simple0/
+$ cd /home/alexey/ws_ts3/crm-simple1/
 ```
 Create an additional application for working with clients.
 ```bash
@@ -285,7 +285,7 @@ This additional application does not depend on other such additional application
 
 To continue, go to the main application directory:
 ```bash
-$ cd /home/alexey/ws_ts3/crm-simple0/
+$ cd /home/alexey/ws_ts3/crm-simple1/
 ```
 Create a separate application for working with tasks.
 ```bash
@@ -506,7 +506,7 @@ import { ClientViewModule } from './client-view/client-view.module';
   ],
   imports: [
     // BrowserModule,
-    AppRoutingModule  ,
+    AppRoutingModule,
     ClientListModule,
     ClientViewModule
   ],
